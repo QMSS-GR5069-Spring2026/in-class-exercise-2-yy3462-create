@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "1"
+# ///
 # MAGIC %md
 # MAGIC # Regression: Predicting Rental Price
 # MAGIC
@@ -176,4 +180,8 @@ display(predDF_final)
 
 # COMMAND ----------
 
-predDF_final.write.mode('overwrite').csv('/Volumes/yy3462/raw/airbnb/predDF.csv')
+predDF_final.write.mode('overwrite').csv('/Volumes/gr5069/yy3462/inclass/predDF.csv')
+
+# COMMAND ----------
+
+
